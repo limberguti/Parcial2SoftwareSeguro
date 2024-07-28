@@ -1,0 +1,22 @@
+###
+GET http://localhost:8800/api HTTP/1.1
+
+
+###
+POST http://localhost:8800/api HTTP/1.1
+
+{
+  "APELLIDOSPERSONAL": "Valor del campo Apellidos",
+  "NOMBRESPERSONAL": "Valor del campo Nombres",
+  "CEDULAPERSONAL": "Valor del campo Cédula",
+  "NACIONALIDADPERSONAL": "Valor del campo Nacionalidad",
+  "GENEROPERSONAL": "Valor del campo Género",
+  "CORREOPERSONALPERSONAL": "",
+  "CORREOINSTITUCIONALPERSONAL": "Valor del campo Correo Institucional",
+  "CIUDADPERSONAL": "Valor del campo Ciudad",
+  "PROVINCIAPERSONAL": "Valor del campo Provincia",
+  "NROPERSONAL": "Valor del campo Número Personal",
+  "CAMPUSSEDEPERSONAL": "Valor del campo Campus",
+  "OBSERVACIONESPERSONAL": "Valor del campo Observaciones"
+}
+
